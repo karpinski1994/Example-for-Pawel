@@ -1,7 +1,7 @@
 import Worker from "./scripts/Worker.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-  const pabloWorker = new Worker("pablo", "z pubelo");
+  const pabloWorker = new Worker();
 
   const nameDiv = document.createElement("div");
   const surnameDiv = document.createElement("div");

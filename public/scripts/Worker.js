@@ -1,9 +1,10 @@
 export const name = "square";
 
 export default class Worker {
-    constructor(name, surname) {
-        this.name = name;
-        this.surname = surname;
+    constructor()
+    {
+        this.name = "pablo";
+        this.surname = "z pubelo";
     }
 
     getName = () => {
